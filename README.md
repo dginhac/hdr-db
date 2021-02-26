@@ -4,6 +4,9 @@ Welcome to the HDR-DB Site!
 
 We propose, free of charge, a versatile video database and also a framework able to generate automatically HDR video content according to user settings. This framework typically includes a set of Matlab scripts to process HDR videos from multiple LDR exposures. It can offer several user-tunable parameters such as the desired quantity of movement in the scene, the dynamic range selection or the number of sequential exposures to be used in the HDR generation.The framework can be used to generate a HDR video from sequential exposures with artificially introduced ghost artifacts(i.e. temporal dependant artifacts), along with a reference of a ghost-free HDR video for ground truth. This database, coupled with the other processing steps of the HDR creation pipeline(Hdr merge and tone mapping), could be used as a platform to test and benchmark deghosting algorithms
 
+![Set of 9 LDR images](img/set-of-9ldr.gif)
+![Resulting HDR image](img/hdr.gif)
+
 # Download
 
 * Step 1: The [HDR toolbox](https://github.com/banterle/HDR_Toolbox) by Banterle et al. is required. 
