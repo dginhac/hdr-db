@@ -1,4 +1,4 @@
-#HDR-DB : A versatile HDR database
+# HDR-DB : A versatile HDR database
 
 Welcome to the HDR-DB Site! 
 
@@ -35,13 +35,13 @@ Finally, the exposure set is composed of a maximum of 9 images taken with a 1 EV
 
 The original setup work-flow is dedicated to visual quality assessment on the resulting LDR/HDR processing. After downloading the HDR-db database, Matlab scripts can be processed to reconstruct customized LDR or HDR video content following user settings. Scripts can be tuned as follows:
 
-** Output video ** type is 'sequential LDR', 'HDR' or 'HDR tone mapped' image/video set. The HDR data container output is a folder with several images sequentially organized for video viewing. The data types are respectively a 14-bit RAW format for LDR images and OpenEXR format for HDR images. OpenEXR is an open-source HDR file format under BSD license, specifically developed for high-quality storage and processing. OpenEXR offers also some direct image processing for visualization and customization of HDR data. 'LDR' and 'sequential LDR' are directly outputted in .avi format for direct visualization, 
+**Output video** type is 'sequential LDR', 'HDR' or 'HDR tone mapped' image/video set. The HDR data container output is a folder with several images sequentially organized for video viewing. The data types are respectively a 14-bit RAW format for LDR images and OpenEXR format for HDR images. OpenEXR is an open-source HDR file format under BSD license, specifically developed for high-quality storage and processing. OpenEXR offers also some direct image processing for visualization and customization of HDR data. 'LDR' and 'sequential LDR' are directly outputted in .avi format for direct visualization, 
 
-** Quantity of motion ** in the scene is fixed by defining the gap number between single shots when reconstructing the videos. This gap number can be 0, 1, 2, 3, 4, 5 ... Based on a stop motion technique, the increment of motion is constant between single shots. So, the resulting quantity of motion increases proportionally with the gap number.
+**Quantity of motion** in the scene is fixed by defining the gap number between single shots when reconstructing the videos. This gap number can be 0, 1, 2, 3, 4, 5 ... Based on a stop motion technique, the increment of motion is constant between single shots. So, the resulting quantity of motion increases proportionally with the gap number.
 
-** Number of LDR exposures ** to reconstruct the LDR/HDR video set is between 1 and 9 images. High quality requirements involve to chose enough exposures to cover the full dynamic range of the scene but also to chose not to many exposures in order to minimize ghosting effects. 
+**Number of LDR exposures** to reconstruct the LDR/HDR video set is between 1 and 9 images. High quality requirements involve to chose enough exposures to cover the full dynamic range of the scene but also to chose not to many exposures in order to minimize ghosting effects. 
 
-** Exposure times ** is in the range [-4,-3,-2,-1,0,1,2,3,4] for light stops, according to the number of selected LDR exposures. The database provides images with 1-stop regular spacing but user can freely select any combination of exposure times. 
+**Exposure times** is in the range [-4,-3,-2,-1,0,1,2,3,4] for light stops, according to the number of selected LDR exposures. The database provides images with 1-stop regular spacing but user can freely select any combination of exposure times. 
 
 # Post-processing
 
@@ -53,4 +53,5 @@ Since our work does not focus on tone mapping operators, we have decided to re-u
 # Contact
 
 e-mail: dginhac@u-bourgogne
+
 url: http://hdr-db.u-bourgogne.fr
