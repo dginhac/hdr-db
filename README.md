@@ -52,6 +52,6 @@ Since our work does not focus on tone mapping operators, we have decided to re-u
 
 # Contact
 
-e-mail: dginhac@u-bourgogne
+e-mail: dginhac@u-bourgogne.fr
 
 url: http://hdr-db.u-bourgogne.fr
